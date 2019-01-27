@@ -1,0 +1,265 @@
+@font-face {
+  font-family: "HylianText"; /*a name to be used later*/
+  src: url("../stylesheet/HyliaSerifBeta-Regular.otf"); /*URL to font*/
+}
+
+@font-face {
+  font-family: "WindWaker"; /*a name to be used later*/
+  src: url("../stylesheet/SherwoodRegular.ttf"); /*URL to font*/
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #140405;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFDF00;
+}
+
+body footer{
+  height: 200px;
+  background-image: url("../images/botw-bg.jpg");
+  width: 100%;
+  margin-top: 200px;
+  background-size: cover !important;
+  border-top:  #D4AF37 solid 5px !important;
+}
+
+
+#test{
+    transition: transform 0.25s;
+}
+
+#test:hover{
+  transform: scale(2.2);
+}
+
+#geenborder{
+  border-right: 0px black solid !important;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  position: relative !important;
+  z-index: 100;
+}
+
+header .bg-light{
+  background-color: #D4AF37 !important;
+  background-image: url("../images/botw-bg.jpg");
+  background-size: cover;
+  background-position: right center;
+  border-bottom: #D4AF37 solid 5px;
+  height: 100%;
+}
+
+header .nav-item .dropdown .dropdown-item{
+  background-color: white;
+}
+
+ul{
+  background-color: #D4AF37;
+  border-radius: 25px;
+}
+
+.dropdown-menu{
+  background-color: #D4AF37;
+  border-radius: 20px;
+}
+
+body{
+  background-image: linear-gradient(#03241f, #007999);
+  background-attachment: local;
+}
+
+
+
+body .background{
+  background-image: url("../images/pattern-triforce-2x.png");
+  background-position: center center;
+  background-repeat: repeat, no-repeat;
+  background-size: 5rem, cover;
+}
+
+body .container .row .test .gaurdian img{
+  height: 400px;
+  shape-outside: url("../images/Gaurdian.png");
+  margin-left: 350px;
+  float: left;
+}
+
+body .container .row .test .gaurdian p{
+  clear: both;
+  margin-left: 350px;
+  padding-right: 200px;
+  float: left;
+}
+
+.main-content{
+  height: 1705px;
+  width: 100%;
+  background-color: white !important;
+  border-radius: 25px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-bottom: 100px;
+  margin-top: 144px;
+  border: 5px solid ;
+  z-index: -110;
+  display: block;
+}
+
+.index-main{
+  text-align: center;
+  font-size: 60px;
+  padding-top: 10px;
+  font-family: "HylianText";
+  font-weight: bold;
+  margin: 0;
+}
+
+@media screen and (max-width: 992px){
+  .navbar-light .navbar-toggler-icon{
+    background-color: #D4AF37;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.index-sub-1{
+  font-size: 25px;
+  text-align: left;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-family: "HylianText";
+  text-align: justify;
+  float: left;
+}
+
+.index-sub-2{
+  font-size: 25px;
+  text-align: left;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-family: "HylianText";
+  text-align: justify;
+  float: left;
+}
+
+.index-sub-3{
+  font-size: 25px;
+  text-align: left;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-family: "HylianText";
+  text-align: justify;
+  float: left;
+}
+
+footer{
+  width: 100%;
+  height: 600px;
+}
+
+header a:hover{
+  background-color: #007999 !important;
+  border-radius: 25px;
+  text-decoration: underline !important
+}
+
+a{
+color: white !important;
+font-family: "HylianText";
+font-size: 30px;
+}
+
+.footerC{
+  font-size: 40px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 15%;
+  text-decoration: none;
+  transition: transform 0.25s;
+  margin-bottom: 0;
+
+}
+
+.footerC:hover{
+  transform: scale(2.0);
+}
+
+.contact{
+  clear: both;
+  float: left;
+  margin-left: 210px;
+  margin-top: 20px;
+}
+
+.vragen{
+  float: left;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.vragen a{
+  font-size: 20px;
+  transition: transform 0.25s;
+  float: left;
+  clear: both;
+}
+
+.vragen a:hover{
+  transform: scale(2.0);
+}
+
+
+.contact a{
+  float: left;
+  clear: both;
+  font-size: 20px;
+  transition: transform 0.25s;
+}
+
+.contact a:hover{
+  transform: scale(2.0);
+}
+
+.footerV{
+  font-size: 40px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 30%;
+  text-decoration: none;
+  transition: transform 0.25s;
+}
+
+.footerV:hover{
+  transform: scale(2.0);
+}
+
+body .container .row video{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin: 0;
+  z-index: -100;
+  transition: transform 1s;
+  border: 0px #D4AF37 solid;
+}
+
+body .container .row video:hover{
+  transform: scale(1.1);
+  border-width: 5px;
+}
