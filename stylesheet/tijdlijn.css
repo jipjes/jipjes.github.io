@@ -116,7 +116,7 @@ body .container .row .test .gaurdian p{
   background-size: cover !important;
   margin-bottom: 100px;
   margin-top: 0;
-  border: 5px solid yellow;
+  border: 5px solid ;
   z-index: -110;
   display: block;
 }
