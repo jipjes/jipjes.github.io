@@ -78,6 +78,7 @@ body{
 body .background{
   background-image: url("../images/pattern-triforce-2x.png");
   background-position: center center;
+  background-attachment: fixed;
   background-repeat: repeat, no-repeat;
   background-size: 5rem, cover;
 }
@@ -96,6 +97,7 @@ body .container .row .test .gaurdian p{
   border-radius: 25px;
   margin-bottom: 100px;
   margin-top: 144px;
+  background-attachment: fixed;
   border: 5px solid ;
   z-index: -110;
   display: block;
@@ -229,25 +231,25 @@ h1{
   margin-bottom: 100px;
   font-weight: bold;
 }
-
-#vraag{
+/*Door meerdere p's tegelijk aan te spreken kan ik alle vragen tegelijk sijlen*/
+.vraag{
   font-family: WindWaker;
   font-size: 30px;
   color: #007999;
   margin-top: 40px;
   margin-left: 60px;
 }
-
-#antwoord{
+/*Door meerdere p's tegelijk aan te spreken kan ik alle antwoorden tegelijk sijlen*/
+.antwoord{
   margin-top: 0% !important;
   font-family: WindWaker !important;
-  font-size: 30px !important;
+  font-size: 30px;
   color: #D4AF37 !important;
   width: 80% !important;
   margin-left: 60px;
 }
 
-#antwoord a{
+.antwoord a{
   margin: 0 !important;
   text-decoration: underline;
   color: #007999 !important;
@@ -256,4 +258,21 @@ h1{
 #helemaalbovenaan{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .main-content{
+    height: 3000px;
+  }
+  .antwoord{
+    margin-top: 0% !important;
+    font-family: WindWaker !important;
+    font-size: 15px;
+    color: #D4AF37 !important;
+    width: 80% !important;
+    margin-left: 60px;
+  }
+  .Vragen{
+
+  }
 }

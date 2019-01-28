@@ -227,3 +227,15 @@ h1{
   margin-right: 30px;
   margin-top: 30px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .main-content{
+    height: 1250px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content{
+    height: 950px;
+  }
+}

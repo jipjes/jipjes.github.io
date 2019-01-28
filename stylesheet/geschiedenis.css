@@ -80,6 +80,7 @@ body .background{
   background-position: center center;
   background-repeat: repeat, no-repeat;
   background-size: 5rem, cover;
+  background-attachment: fixed;
 }
 
 body .container .row .test .gaurdian p{

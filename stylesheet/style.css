@@ -90,6 +90,7 @@ body .background{
   background-image: url("../images/pattern-triforce-2x.png");
   background-position: center center;
   background-repeat: repeat, no-repeat;
+  background-attachment: fixed;
   background-size: 5rem, cover;
 }
 
@@ -114,6 +115,7 @@ body .container .row .test .gaurdian p{
   border-radius: 25px;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
+  background-attachment: fixed;
   margin-bottom: 100px;
   margin-top: 144px;
   border: 5px solid ;
@@ -262,4 +264,13 @@ body .container .row video{
 body .container .row video:hover{
   transform: scale(1.1);
   border-width: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact a{
+    float: left;
+    clear: both;
+    font-size: 200px;
+    transition: transform 0.25s;
+  }
 }
