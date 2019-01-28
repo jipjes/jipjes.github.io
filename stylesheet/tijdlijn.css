@@ -78,6 +78,7 @@ body{
 body .background{
   background-image: url("../images/pattern-triforce-2x.png");
   background-position: center center;
+  background-attachment: fixed;
   background-repeat: repeat, no-repeat;
   background-size: 5rem, cover;
 }
