@@ -84,7 +84,10 @@ body{
   background-attachment: local;
 }
 
-
+.img-fluid{
+height: auto;
+width: 100%;
+}
 
 body .background{
   background-image: url("../images/pattern-triforce-2x.png");
@@ -95,9 +98,7 @@ body .background{
 }
 
 body .container .row .test .gaurdian img{
-  height: 400px;
   shape-outside: url("../images/Gaurdian.png");
-  margin-left: 350px;
   float: left;
 }
 
@@ -109,7 +110,7 @@ body .container .row .test .gaurdian p{
 }
 
 .main-content{
-  height: 1705px;
+  height: 1760px;
   width: 100%;
   background-color: white !important;
   border-radius: 25px;
@@ -185,14 +186,12 @@ header a:hover{
 a{
 color: white !important;
 font-family: "HylianText";
-font-size: 30px;
 }
 
 .footerC{
   font-size: 40px;
   float: left;
-  margin-top: 15px;
-  margin-left: 15%;
+  text-align: center;
   text-decoration: none;
   transition: transform 0.25s;
   margin-bottom: 0;
@@ -212,7 +211,7 @@ font-size: 30px;
 
 .vragen{
   float: left;
-  margin-left: 400px;
+  margin-left: 325px;
   margin-top: 20px;
 }
 
@@ -242,10 +241,9 @@ font-size: 30px;
 .footerV{
   font-size: 40px;
   float: left;
-  margin-top: 15px;
-  margin-left: 30%;
   text-decoration: none;
   transition: transform 0.25s;
+  text-align: center;
 }
 
 .footerV:hover{
@@ -266,11 +264,23 @@ body .container .row video:hover{
   border-width: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-  .contact a{
-    float: left;
-    clear: both;
-    font-size: 200px;
-    transition: transform 0.25s;
+@media only screen and (max-width: 1200px) {
+  .footerV:hover{
+    transform: none;
   }
+  .footerC:hover{
+    transform: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+    .footerV{
+      margin-top: 15px;
+      margin-left: 11%;
+      margin-right: 0 !important;
+    }
+    .footerC{
+    margin-top: 15px;
+    margin-left: 5%;
+    }
 }
