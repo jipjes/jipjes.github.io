@@ -120,7 +120,7 @@ body .container .row .test .gaurdian p{
   margin-bottom: 100px;
   margin-top: 144px;
   border: 5px solid ;
-  z-index: -110;
+  z-index: 110;
   display: block;
 }
 
@@ -211,7 +211,7 @@ font-family: "HylianText";
 
 .vragen{
   float: left;
-  margin-left: 325px;
+  margin-left: 330px;
   margin-top: 20px;
 }
 
@@ -275,12 +275,22 @@ body .container .row video:hover{
 
 @media only screen and (min-width: 1200px) {
     .footerV{
-      margin-top: 15px;
-      margin-left: 11%;
-      margin-right: 0 !important;
-    }
-    .footerC{
     margin-top: 15px;
-    margin-left: 5%;
+    margin-left: 12%;
+    margin-right: 0;
     }
+
+    .footerC{
+      margin-top: 15px;
+      margin-left: 4% !important;
+    }
+}
+
+@media only screen and (max-width: 426) {
+  .footerV:hover{
+    transform: none;
+  }
+  .footerC:hover{
+    transform: none;
+  }
 }
